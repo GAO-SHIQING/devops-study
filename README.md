@@ -9,6 +9,7 @@ study/
 ├── README.md                    # 本文件
 ├── *_learning_plan.md           # 各主题学习路线规划
 ├── *_notebooks/                 # 各主题 Jupyter 笔记
+├── docs/                        # 项目文档
 └── test/                        # 测试脚本
 ```
 
@@ -22,11 +23,14 @@ study/
 | **Linux** | [linux_learning_plan.md](./linux_learning_plan.md) | [linux_notebooks/](./linux_notebooks/) | 用户空间、systemd、网络、性能排障 |
 | **SQL** | [sql_learning_plan.md](./sql_learning_plan.md) | [sql_notebooks/](./sql_notebooks/) | CRUD、查询、表设计、Python 集成 |
 | **CI/CD** | [cicd_learning_plan.md](./cicd_learning_plan.md) | [cicd_notebooks/](./cicd_notebooks/) | 基础概念、构建测试、Docker 部署、进阶 |
+| **Git** | [git_learning_plan.md](./git_learning_plan.md) | [git_notebooks/](./git_notebooks/) | 内部原理、分支合并、进阶技巧、协作工作流 |
+| **监控可观测** | [monitoring_learning_plan.md](./monitoring_learning_plan.md) | [monitoring_notebooks/](./monitoring_notebooks/) | Prometheus、Grafana、Loki、OpenTelemetry |
+| **IaC** | [iac_learning_plan.md](./iac_learning_plan.md) | [iac_notebooks/](./iac_notebooks/) | Terraform、Ansible、Helm、IaC 全流程 |
 
 ## 学习路线建议
 
 ```
-Python 基础 → Docker → Kubernetes → Linux 深入 → SQL → CI/CD
+Python 基础 → Docker → Kubernetes → Linux 深入 → SQL → CI/CD → Git 深入 → 监控可观测 → IaC
 ```
 
 1. **Python** — 先掌握一门编程语言，后续自动化、数据处理都依赖
@@ -35,6 +39,9 @@ Python 基础 → Docker → Kubernetes → Linux 深入 → SQL → CI/CD
 4. **Linux** — 深入系统底层，排障和性能优化必备
 5. **SQL** — 数据库操作，后端开发基础
 6. **CI/CD** — 自动化流水线，串联前面所有技能
+7. **Git** — 深入版本控制的内部原理和团队协作工作流
+8. **监控可观测** — Prometheus + Grafana + 日志 + 链路追踪，SRE 核心能力
+9. **IaC** — Terraform + Ansible，用代码管理一切基础设施
 
 ## 使用方式
 
